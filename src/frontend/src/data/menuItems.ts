@@ -2,6 +2,7 @@ import type { MenuItem, ServiceHighlight } from "../types/restaurant";
 import mediterraneanMushroomPastaImage from "../assets/mediterranean-mushroom-pasta.png";
 import mediterraneanRibeyeImage from "../assets/mediterranean-ribeye.png";
 import mediterraneanSeaBassImage from "../assets/mediterranean-sea-bass.png";
+import mediterraneanBakedBostonLobsterImage from "../assets/mediterranean-baked-boston-lobster.png";
 
 export const menuItems: MenuItem[] = [
   {
@@ -27,6 +28,14 @@ export const menuItems: MenuItem[] = [
     accent: "Seafood",
     imageSrc: mediterraneanSeaBassImage,
     imageAlt: "地中海風格陶盤上的炭烤海鱸魚"
+  },
+  {
+    name: "焗烤波士頓龍蝦",
+    description: "半隻波士頓龍蝦、香草蒜奶油、帕瑪森焗烤與檸檬油醋。",
+    price: 1380,
+    accent: "Lobster",
+    imageSrc: mediterraneanBakedBostonLobsterImage,
+    imageAlt: "地中海風格陶盤上的焗烤波士頓龍蝦"
   }
 ];
 
