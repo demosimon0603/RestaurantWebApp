@@ -12,8 +12,11 @@ const currencyFormatter = new Intl.NumberFormat("zh-TW", {
 
 export function MenuCard({ item }: MenuCardProps) {
   return (
-    <article className="menu-card">
-      <div>
+    <article className={item.imageSrc ? "menu-card menu-card--with-image" : "menu-card"}>
+      {item.imageSrc ? (
+        <img className="menu-card__image" src={item.imageSrc} alt={item.imageAlt ?? item.name} />
+      ) : null}
+      <div className="menu-card__body">
         <p className="menu-card__accent">{item.accent}</p>
         <h3>{item.name}</h3>
         <p>{item.description}</p>

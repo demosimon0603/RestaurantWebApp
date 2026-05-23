@@ -1,11 +1,14 @@
 import type { MenuItem, ServiceHighlight } from "../types/restaurant";
+import mediterraneanRibeyeImage from "../assets/mediterranean-ribeye.png";
 
 export const menuItems: MenuItem[] = [
   {
     name: "乾式熟成肋眼",
     description: "28 天熟成牛排、紅酒小牛汁、烤蒜與海鹽奶油。",
     price: 1680,
-    accent: "Chef's cut"
+    accent: "Chef's cut",
+    imageSrc: mediterraneanRibeyeImage,
+    imageAlt: "地中海風格陶盤上的乾式熟成肋眼牛排"
   },
   {
     name: "松露野菇寬麵",

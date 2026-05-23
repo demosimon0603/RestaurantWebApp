@@ -3,6 +3,8 @@ export interface MenuItem {
   description: string;
   price: number;
   accent: string;
+  imageSrc?: string;
+  imageAlt?: string;
 }
 
 export interface ServiceHighlight {
