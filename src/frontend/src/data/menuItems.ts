@@ -1,4 +1,5 @@
 import type { MenuItem, ServiceHighlight } from "../types/restaurant";
+import mediterraneanMushroomPastaImage from "../assets/mediterranean-mushroom-pasta.png";
 import mediterraneanRibeyeImage from "../assets/mediterranean-ribeye.png";
 
 export const menuItems: MenuItem[] = [
@@ -14,7 +15,9 @@ export const menuItems: MenuItem[] = [
     name: "松露野菇寬麵",
     description: "手工寬麵、帕瑪森乳酪、季節野菇與黑松露油。",
     price: 680,
-    accent: "Handmade"
+    accent: "Handmade",
+    imageSrc: mediterraneanMushroomPastaImage,
+    imageAlt: "地中海風格陶碗中的松露野菇寬麵"
   },
   {
     name: "炭烤海鱸魚",
