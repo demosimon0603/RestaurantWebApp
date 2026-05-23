@@ -1,6 +1,7 @@
 import type { MenuItem, ServiceHighlight } from "../types/restaurant";
 import mediterraneanMushroomPastaImage from "../assets/mediterranean-mushroom-pasta.png";
 import mediterraneanRibeyeImage from "../assets/mediterranean-ribeye.png";
+import mediterraneanSeaBassImage from "../assets/mediterranean-sea-bass.png";
 
 export const menuItems: MenuItem[] = [
   {
@@ -23,7 +24,9 @@ export const menuItems: MenuItem[] = [
     name: "炭烤海鱸魚",
     description: "檸檬香草奶油、烤時蔬、酸豆與薄荷沙拉。",
     price: 920,
-    accent: "Seafood"
+    accent: "Seafood",
+    imageSrc: mediterraneanSeaBassImage,
+    imageAlt: "地中海風格陶盤上的炭烤海鱸魚"
   }
 ];
 
